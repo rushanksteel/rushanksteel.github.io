@@ -1,0 +1,67 @@
+/* ----dhwani start---*/
+/* about us- css code*/
+.about-us {
+    background-color: white;
+    text-align: center;
+}
+
+@media (min-width: 650px) {
+    .affix2 {
+        background-color: #474a4f;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .nav {
+        height: auto;
+    }
+}
+
+.h1-aboutus {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10% 15% 1%;
+}
+
+@media (max-width: 1025px) {
+    .h1-aboutus {
+        padding-top: 18%;
+    }
+}
+
+@media (max-width: 700px) {
+    .h1-aboutus {
+        padding-top: 25%;
+    }
+}
+
+/*class for every alignment*/
+.info-row {
+    padding: 3% 15% 5%;
+    text-align: left;
+    line-height: 2;
+}
+
+/*class of each and every memeber of website*/
+.left-image {
+    width: 50%;
+    float: left;
+    padding: 3% 15% 7%;
+}
+
+.right-image {
+    width: 50%;
+    float: right;
+    padding: 3% 15% 7%;
+}
+
+/* ----dhwani stop***/
+.content {
+    padding: 2% 15% 3%;
+    font-style: Ubuntu;
+    font-size: 1.25rem;
+}
+
+p {
+    padding-bottom: 1%;
+}
