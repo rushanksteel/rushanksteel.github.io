@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 /*-- Inspiration taken from abdo steif -->
@@ -638,6 +638,13 @@ body {
 
     .carousel-caption {
         font-size: 80%;
+    }
+}
+
+@media (max-width: 321px) {
+    .caromain {
+        padding-top: 25%;
+        font-size: 75%;
     }
 }
 
