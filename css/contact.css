@@ -1,5 +1,5 @@
 body {
-    background-image: url(contactbg.jpg);
+    background-image: linear-gradient(to right top, #ffffff, #cacaca, #979797, #676767, #3b3b3b, #3b3b3b, #3b3b3b, #3b3b3b, #676767, #979797, #cacaca, #ffffff);
     align-items: center;
 }
 
@@ -86,7 +86,6 @@ body {
     }
 
     body {
-        background-image: url(Machine.jpg);
         align-items: none;
     }
 }
@@ -99,7 +98,7 @@ body {
 }
 
 .dd:hover {
-    color: #001f7f;
+    color: #13F9F4;
 }
 
 .bold {
@@ -108,17 +107,17 @@ body {
 }
 
 .fprivate-link1 {
-    color: #13F9F4;
+    color: red;
 }
 
 .ff1 {
-    color: #13F9F4;
+    color: red;
 }
 
 .fprivate-link1:hover {
-    color: blue;
+    color: #13F9F4;
 }
 
 .f-f-private1:hover, .ff1:hover {
-    color: blue;
+    color: #13F9F4;
 }
