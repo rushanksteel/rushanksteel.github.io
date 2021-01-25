@@ -554,7 +554,7 @@ body {
 }
 
 .rem3 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: normal;
 }
 
@@ -584,7 +584,7 @@ body {
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 500px) {
     .res {
         font-size: 1.5rem;
     }
@@ -595,7 +595,7 @@ body {
     }
 
     .caromain {
-        padding-top: 22%;
+        padding-top: 18%;
         background-color: #474a4f;
     }
 
@@ -690,7 +690,7 @@ body {
     padding-right: 10%;
 }
 
-@media (min-width: 1023px) and (max-width: 1441px) {
+@media (min-width: 1025px) and (max-width: 1441px) {
     .navcontain {
         width: 100%;
         padding-left: 5%;
@@ -698,6 +698,25 @@ body {
     }
 }
 
+@media (min-width: 850px) and (max-width: 1300px) {
+    .navcontain {
+        width: 100%;
+        padding-left: 2%;
+        padding-right: 0;
+    }
+
+    .rem3 {
+        font-size: 1.25rem;
+    }
+}
+
 .leadx {
     font-weight: 300;
+}
+
+@media (min-width: 450px) and (max-width: 500px) {
+    .caromain {
+        padding-top: 15%;
+        background-color: #474a4f;
+    }
 }
