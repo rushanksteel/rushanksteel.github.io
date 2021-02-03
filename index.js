@@ -1,3 +1,10 @@
+function submittomail() {
+    if (document.getElementById('nameid').value != "" && document.getElementById('emailid').value != "" && document.getElementById('phoneid').value != "" && document.getElementById('messageid').value != "") {
+        var m = "My name is " + String(document.getElementById('nameid').value) + ". My email id is " + String(document.getElementById('emailid').value) + ". My phone number is " + String(document.getElementById('phoneid').value) + ". Following is my message for you - " + String(document.getElementById('messageid').value);
+        var s = "mailto:info@rushanksteel.com?subject=InformationRequested&body=" + m;
+        window.location.replace(s);
+    }
+}
 var tmp = 0;
 $('.navTrigger').click(function() {
     $(this).toggleClass('active');
